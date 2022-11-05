@@ -5,7 +5,7 @@
 	</head>
 	<body>
 <div id="info">Hello!</div>
-<a id="login" style="display: none;" href="https://discord.com/api/oauth2/authorize?client_id=928451626228924426&redirect_uri=https%3A%2F%2Faccount-desktopid.vercel.app%2F&response_type=code&scope=identify">Identify Yourself</a>
+<a id="login" style="display: none;" href="https://discord.com/oauth2/authorize?response_type=code&client_id=928451626228924426&scope=identify">Identify Yourself</a>
 <script>
 	window.onload = () => {
 		const fragment = new URLSearchParams(window.location.hash.slice(1));
